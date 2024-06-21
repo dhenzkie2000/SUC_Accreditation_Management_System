@@ -1,0 +1,57 @@
+/*Start Foundation*/
+*{
+    font-family: 'poppins', 'sans-serif';
+}
+.sidebar{
+    background-color:#191f22;
+}
+.uni_name.toggled{
+    display: none;
+}
+.sidebar-brand-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.sidebar-brand-icon.toggled{
+    justify-content: center;
+}
+.uni_logo{
+    width: 3vw;
+    float: left;
+    margin-right: 5%;
+}
+.uni_logo.toggled{
+    margin-right: 0px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58, 59, 69, .15);
+}
+
+@media screen and (max-width: 780px) {
+    .sidebar-brand-icon{
+        font-size: 10px;
+    }
+  }
+
+/*End Foundation*/
+/* Start Content*/
+.sup_doc_cont{
+    width: 100%;
+    height: 50vh;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+.item_cont{
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+/* End Content*/
